@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="clickevent">
+        <button id="btn">Appuyez ! </button>
+        <br>
+        <img src="./gc.jpg" id=img alt="">
+    </div>
+
+    <div class="mouseEvent">
+        <div>Horizontal : <span class="horizontal">0</span></div>
+        <div>Vertical : <span class="vertical">0</span></div>
+        <div>Texte : <span class="textee"></span></div>
+    </div>
+
+    <div class="inputEvent">
+        <label for="input">Comment ça va aujourd'hui ?</label>
+        <br>
+        <input type="text" id="input">
+        <div id="result"></div>
+    </div>
+
+    <div class="themeContainer">
+        <div class="theme" id="dark"></div>
+        <div class="theme" id="red"></div>
+        <div class="theme" id="gold"></div>
+    </div>
+
+    <script src="manipdom.js"></script>
+</body>
+</html>
